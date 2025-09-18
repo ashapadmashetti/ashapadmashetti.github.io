@@ -64,3 +64,11 @@ a:hover { text-decoration: underline; }
 @media (max-width: 640px){
   .card header { flex-direction: column; align-items: flex-start; }
 }
+
+.profile-pic {
+  width: 120px;   /* or your preferred size */
+  height: auto;
+  border-radius: 50%; /* for a circular look, optional */
+  display: block;
+  margin: 0 auto; /* optional: center the image */
+}
