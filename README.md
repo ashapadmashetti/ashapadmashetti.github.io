@@ -1,35 +1,17 @@
 # ashapadmashetti.github.io
 
-# Asha Padmashetti — Portfolio
+# Hi, I’m Asha 👋
 
-Modern, easy‑to‑navigate portfolio built with plain HTML/CSS/JS so it’s fast and simple to maintain.
+Staff Software Developer @ IBM (AIOps). I build scalable systems and crisp UIs.
 
-## Quick start
+- 🔭 Recent: Boosted DB connector performance **1/sec → 300/sec**.
+- 🧪 Enjoy: React, Java, Kafka, gRPC, observability, data‑driven UX.
+- 📫 Reach me: **asha.padmashetti@gmail.com** · [LinkedIn](https://www.linkedin.com/in/ashapadmashetti/) · [GitHub](https://github.com/ashapadmashettinu)
 
-1. **Use this as your repo** (e.g., `ashapadmashetti.github.io`) to enable GitHub Pages.
-2. Push to `main`, then in **Settings → Pages**, set:
-   - **Source**: Deploy from a branch
-   - **Branch**: `main` / `/root`
-3. The site will be live at `https://ashapadmashetti.github.io`.
+### Selected projects
+- **[Job Application Tracker](https://github.com/ashapadmashettinu/JobTracker)** — MERN app to track applications.
+- **[Health Management System](https://github.com/ashapadmashettinu/HealthManagementSystem)** — SQL schema & queries.
+- **[YouTube Music Redesign](https://www.figma.com/proto/D6qMNaJX5pA2mQfivixkcq/YoutubeMusic?node-id=1731%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1731%3A3&show-proto-sidebar=1)** — Figma prototype.
 
-### Local preview
-Just open `index.html` in a browser. No build required.
+> Tip: Create a repo named **`ashapadmashetti`** (your username) with a `README.md` file to make this show on your GitHub profile.
 
-## Personalizing
-- Replace the résumé at `assets/AshaPadmashetti_Software_Developer.pdf`.
-- Update links and copy in `index.html`.
-- Tweak theme colors in `assets/style.css` (supports light/dark toggle).
-
-## Structure
-```
-.
-├── assets/
-│   ├── AshaPadmashetti_Software_Developer.pdf
-│   ├── style.css
-│   └── site.js
-├── index.html
-└── README.md
-```
-
-## License
-MIT — feel free to reuse and adapt.
