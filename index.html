@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asha Padmashetti — Portfolio</title>
+  <meta name="description" content="Staff Software Developer specializing in AIOps, React, Java, Kafka, and scalable systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <header class="site-header container">
+    <div class="brand">
+      <div class="dot"></div>
+      <a class="name" href="#top">Asha Padmashetti</a>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a class="resume" href="assets/AshaPadmashetti_Software_Developer.pdf" target="_blank" rel="noopener">Résumé</a>
+      <button aria-label="Toggle theme" id="themeToggle">☼</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <div class="hero-copy">
+        <h1>Clean, reliable, human‑centered software.</h1>
+        <p>
+          Staff Software Developer @ IBM (AIOps). I design and ship scalable systems and UI that users actually want to use —
+          from high‑throughput data connectors (Email, ServiceNow, GitHub, Jira, DBs) to React‑based admin experiences.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="mailto:asha.padmashetti@gmail.com">Email me</a>
+        </div>
+        <div class="quick-facts">
+          <span>San Jose, CA</span>
+          <a href="https://www.linkedin.com/in/ashapadmashetti/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/ashapadmashetti" target="_blank" rel="noopener">GitHub (personal)</a>
+          <a href="https://github.com/ashapadmashettinu" target="_blank" rel="noopener">GitHub (university)</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m a product‑minded engineer who bridges backend scalability with polished frontends.
+        At IBM, I improved a database connector from <strong>1/sec → 300/sec</strong> inserts/upserts
+        and collaborated closely with product and design to refine AIOps user workflows.
+      </p>
+      <p>
+        I value crisp UX, observability, and pragmatic engineering — shipping quality quickly, then iterating with data.
+      </p>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+
+      <article class="card">
+        <header>
+          <h3>IBM — Staff Software Developer</h3>
+          <span>San Jose, USA · May 2023 – Present</span>
+        </header>
+        <ul>
+          <li>Designed & built AIOps connectors for Email, ServiceNow, GitHub, Jira, Databases using Java, Kafka, gRPC.</li>
+          <li>Partnered with product/UX on AIOps UI improvements for better usability and task completion.</li>
+          <li>Boosted DB connector throughput from <strong>1/sec</strong> to <strong>300/sec</strong>.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>IBM — Staff Software Developer Co‑op</h3>
+          <span>May 2022 – Mar 2023</span>
+        </header>
+        <ul>
+          <li>Added React components to configure the Watson Assistant chat bot.</li>
+          <li>Launched end‑to‑end Cypress test interface for updated UI.</li>
+          <li>Shipped “pause response” feature 3 weeks ahead of deadline.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>Dresslife GmbH — Frontend Developer</h3>
+          <span>Hannover, Germany · Jul 2019 – Jul 2020</span>
+        </header>
+        <ul>
+          <li>Built multi‑tenant JS plugin for major fashion retailers.</li>
+          <li>Implemented event‑driven flows with Apache Kafka.</li>
+          <li>Owned KPIs, dashboards (GA, Kibana) to drive A/B tests.</li>
+          <li>Awards: Employee of the Sprint & Quarter.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header>
+          <h3>Verizon — Senior & Software Developer</h3>
+          <span>Hyderabad, India · Jun 2015 – May 2019</span>
+        </header>
+        <ul>
+          <li>Led team to deliver “ProvisionIt” on tight timelines; mentored devs.</li>
+          <li>Automated data aggregation (Node.js + Angular) saving ~480 work‑hours/week.</li>
+          <li>Revamped VAPP cart UI (ASP.NET, JS, jQuery, SQL Server); created Jenkins CI/CD jobs.</li>
+          <li>Awards: Hackathon winner (MERN), multiple Spot Light awards.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <a class="proj card" href="https://github.com/ashapadmashetti/JobTracker" target="_blank" rel="noopener">
+          <h3>Job Application Tracker (MERN)</h3>
+          <p>Full‑stack tracker to organize applications, statuses, and notes.</p>
+          <span class="tags">MongoDB · Express · React · Node</span>
+        </a>
+        <a class="proj card" href="https://github.com/ashapadmashetti/HealthManagementSystem" target="_blank" rel="noopener">
+          <h3>Health Management System (SQL)</h3>
+          <p>Relational schema & queries for managing health data.</p>
+          <span class="tags">SQL · DBMS</span>
+        </a>
+        <a class="proj card" href="https://www.figma.com/proto/D6qMNaJX5pA2mQfivixkcq/YoutubeMusic?node-id=1731%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1731%3A3&show-proto-sidebar=1" target="_blank" rel="noopener">
+          <h3>YouTube Music Redesign</h3>
+          <p>Interactive prototype emphasizing clarity and discoverability.</p>
+          <span class="tags">Figma · UX</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Redux</li><li>Angular</li>
+        <li>HTML</li><li>CSS/SASS</li><li>Java</li><li>Python</li><li>Node.js</li>
+        <li>GraphQL</li><li>Cypress</li><li>Figma</li><li>ServiceNow</li>
+        <li>Kafka</li><li>gRPC</li><li>MS SQL</li><li>MySQL</li><li>MongoDB</li><li>Redis</li>
+        <li>GIT/Jenkins</li><li>AWS (EC2, S3, APIGEE)</li><li>Kubernetes</li><li>Kibana/Grafana</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-card card">
+        <p><strong>Email:</strong> <a href="mailto:asha.padmashetti@gmail.com">asha.padmashetti@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ashapadmashetti/" target="_blank" rel="noopener">linkedin.com/in/ashapadmashetti</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ashapadmashetti" target="_blank" rel="noopener">github.com/ashapadmashettinu</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>© <span id="year"></span> Asha Padmashetti · Built with HTML/CSS/JS · Hosted on GitHub Pages</p>
+  </footer>
+</body>
+</html>
